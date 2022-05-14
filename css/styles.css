@@ -8,7 +8,7 @@ body {
 
 .container {
     max-width: 1280px;
-    padding: 15px 0;
+    padding: 0 15px;
     margin: 0 auto;
 }
 
@@ -55,13 +55,13 @@ header {
 
 .cuadro_main_1 {
     background: #f6f2f2;
+    padding-bottom: 100px;
+    padding-top: 50px;
 }
 
 .cuadrodearriba {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 50px;
-    padding-top: 50px;
 }
 
 .contenido_cuadro1 {
@@ -79,9 +79,9 @@ iframe {
 }
 
 p.p_cuadro1 {
-    margin-top: 15px;
-    margin-bottom: 60px;
-    margin-right: 120px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-right: 70px;
     color: #4c4c4c;
 }
 
@@ -95,6 +95,7 @@ p.p_cuadro1 {
     font-weight: bold;
     transition: .5s;
     font-size: 18px;
+    display: inline-block;
 }
 .button:hover {
     background-color: transparent;
@@ -104,11 +105,13 @@ p.p_cuadro1 {
 /*Segunda Sección*/
 
 .container_main {
-    margin: 70px 0 50px;
+    margin-top: 90px;
 }
 
 .contenedor_seccion2 {
     display: flex;
+    border-bottom: 1px solid black;
+    padding-bottom: 80px;
 }
 
 .boxinter img {
@@ -116,9 +119,12 @@ p.p_cuadro1 {
     margin-bottom: 20px;
 }
 
-.boxoff1, .boxoff2{
+.boxoff{
     display: flex;
-    margin: 0;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 90px;
+    gap: 20px 40px;
 }
 
 .box1 {
@@ -134,7 +140,7 @@ p.p_cuadro1 {
 }
 
 .boxinter {
-    padding-left: 90px;
+    width: 40%;
 }
 
 .button_1 {
@@ -147,7 +153,9 @@ p.p_cuadro1 {
     font-weight: bold;
     transition: .5s;
     font-size: 18px;
+    display: inline-block;
 }
+
 .button_1:hover {
     background-color: #ff3b3b;
     color: white;
@@ -169,15 +177,13 @@ h1.tittle_cuadro2 {
 }
 
 .p_cuadro2 {
-    margin-top: 20px;
-    margin-bottom: 50px;
+    margin: 20px 0;
     color: #4c4c4c;
 }
 
 .p_cuadro2_box1 {
-    margin-top: 50px;
+    margin-top: 40px;
     margin-bottom: 50px;
-    margin-right: 65px;
 }
 
 /*Tercera Sección*/
@@ -185,16 +191,14 @@ h1.tittle_cuadro2 {
 .barra_nav2 a {
     text-decoration: none;
     color: #4c4c4c;
-    padding: 40px 25px;
+    padding: 0 25px;
     display: inline-block;
-    font-size: 14px;
+    font-size: 22px;
     transition: .5s;
     font-weight: bold;
 }
+
 .lista_nav2 {
-    margin: 0;
-    padding: 0;
-    list-style: none;
     display: flex;
     justify-content: center;
 }
@@ -203,11 +207,8 @@ h1.tittle_cuadro2 {
     color: #ff3b3b;
 }
 .barra_nav2 {
-    margin-top: 50px;
-}
-
-.lista_nav2 a {
-    font-size: 20px;
+    margin-top: 90px;
+    margin-bottom: 70px;
 }
 
 .rect_content img {
@@ -218,13 +219,7 @@ h1.tittle_cuadro2 {
 .ventanas {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
-}
-
-.contenedor_line {
-    max-width: 1280px;
-    margin: 0 auto 70px;
-    padding: 0;
+    gap: 15px;
 }
 
 h1.tittle_cuadro3  {
@@ -233,16 +228,22 @@ h1.tittle_cuadro3  {
     text-align: center;
     color: #333333;
 }
+.header_sec2 {
+    margin-top: 80px;
+}
 
 .texto_cuadro3 {
-    margin: 10px auto 30pX;
+    margin: 0 auto;
     max-width: 600px;
     text-align: center;
     color: #4c4c4c;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 .peque {
     max-width: 150px;
     border-color: #ff3b3b;
+    margin: 0 auto;
 }
 
 /*Cuarta Sección*/
@@ -250,9 +251,6 @@ h1.tittle_cuadro3  {
 .peque2 {
     max-width: 150px;
     border-color: #ff3b3b;
-    margin-top: 30px;
-    margin-bottom: 80px;
-    display: flex;
     margin-left: 0;
 }
 
@@ -263,7 +261,7 @@ h1.tittle_cuadro4  {
 }
 
 p.texto_cuadro4 {
-    margin: 30px 0 0;
+    margin: 35px 0 35px;
     width: 90%;
     color: #4c4c4c;
 }
@@ -274,8 +272,7 @@ p.texto_cuadro4 {
 }
 .encabezado_s4 {
     max-width: 600px;
-    display: flex;
-    flex-direction: column;
+    margin-bottom: 70px;
 }
 
 .imagen_main img {
@@ -324,7 +321,7 @@ p.texto_cuadro4 {
 }
 
 .contenedor4 {
-    margin: 90px 0 100px;
+    margin: 130px 0 100px;
 }
 
 .barra_nav3 {
@@ -386,6 +383,7 @@ p.texto_cuadro5 {
     transition: .5s;
     font-size: 18px;
     margin: 0 20px;
+    display: inline-block;
 }
 .button_sus:hover {
     background-color: transparent;
@@ -478,6 +476,7 @@ p.texto_cuadro6 {
     width: 100%;
     padding: 25px;
     letter-spacing: 1px;
+    display: inline-block;
 }
 .sus:hover {
     background-color: white;
@@ -527,13 +526,13 @@ p.texto_cuadro6 {
 footer {
     background: #2d2d2d;
     color: #b8b8b8;
+    padding: 40px 0 20px;
 }
 
 .pie {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 40px 0 20px;
 }
 .list_icon {
     display: flex;
