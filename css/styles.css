@@ -408,6 +408,7 @@ p.texto_cuadro5 {
 .email_sus {
     display: flex;
     justify-content: center;
+    text-align: center;
     margin: 70px auto;
 }
 
@@ -681,6 +682,8 @@ footer {
         transition: .5s;
         font-size: 18px;
         display: inline-block;
+        width: 100%;
+        text-align: center;
     }
 
     .button:hover {
@@ -742,6 +745,8 @@ footer {
         transition: .5s;
         font-size: 18px;
         display: inline-block;
+        width: 100%;
+        text-align: center;
     }
 
     .button_1:hover {
@@ -978,13 +983,15 @@ footer {
         border: 3px solid #ff3b3b;
         background: #ff3b3b;
         color: white;
-        padding: 25px 60px;
+        padding: 20px 60px;
         text-decoration: none;
         font-weight: bold;
         transition: .5s;
         font-size: 18px;
         margin: 0;
         display: inline-block;
+        width: 100%;
+        text-align: center;
     }
 
     .button_sus:hover {
@@ -1187,10 +1194,10 @@ footer {
     }
 }
 
-@media screen and (min-width:640px) {
+@media screen and (min-width:576px) {
 
     .container {
-        max-width: 640px;
+        max-width: 576px;
         padding: 0 15px;
         margin: 0 auto;
     }
@@ -1229,10 +1236,10 @@ footer {
     /*Primerra sección*/
 
     .tittle_cuadroarriba {
-        font-size: 28px;
+        font-size: 24px;
         font-weight: 800;
         margin: 0;
-        line-height: 45px;
+        line-height: 40px;
         letter-spacing: 1px;
     }
 
@@ -1294,7 +1301,7 @@ footer {
     }
 
     .contenedor_seccion2 {
-        display: flex;
+        display: inline;
         border-bottom: 1px solid #313030;
         padding-bottom: 50px;
     }
@@ -1308,17 +1315,17 @@ footer {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        margin-left: 40px;
+        margin-left: 0;
         gap: 20px 40px;
     }
 
     .box1 {
-        width: 130%;
+        width: 100%;
     }
 
     .box2 {
-        padding-left: 20px;
-        width: 180%;
+        padding-left: 0;
+        width: 100%;
     }
 
     .box2 p {
@@ -1357,7 +1364,7 @@ footer {
     }
 
     h1.tittle_cuadro2 {
-        font-size: 18px;
+        font-size: 26px;
         margin: 0;
         line-height: 30px;
         letter-spacing: 1px;
@@ -1378,9 +1385,9 @@ footer {
     .barra_nav2 a {
         text-decoration: none;
         color: #4c4c4c;
-        padding: 0 14px;
+        padding: 0 10px;
         display: inline-block;
-        font-size: 15px;
+        font-size: 14px;
         transition: .5s;
         font-weight: bold;
     }
@@ -1400,8 +1407,8 @@ footer {
     }
 
     .rect_content img {
-        width: 280px;
-        height: 280px;
+        width: 260px;
+        height: 260px;
     }
 
     .ventanas {
@@ -1453,7 +1460,7 @@ footer {
 
     p.texto_cuadro4 {
         margin: 25px 0;
-        width: 90%;
+        width: 100%;
         color: #4c4c4c;
     }
 
@@ -1469,14 +1476,14 @@ footer {
     }
 
     .imagen_main img {
-        width: 200px;
-        height: 320px;
+        width: 160px;
+        height: 280px;
     }
 
     .barra_nav3 a {
         text-decoration: none;
         color: black;
-        font-size: 18px;
+        font-size: 16px;
         margin-right: 20px;
         font-style: italic;
     }
@@ -1489,7 +1496,7 @@ footer {
     }
 
     .rect_content_2 img{
-        height: 110px;
+        height: 100px;
         width: 90px;
     }
 
@@ -1519,7 +1526,7 @@ footer {
     }
 
     .barra_nav3 {
-        padding: 30px 0 15px;
+        padding: 20px 0 15px;
     }
 
     div.link__ {
@@ -1551,7 +1558,7 @@ footer {
     /*Quinta Sección*/
 
     h2.tittle_cuadro5  {
-        font-size: 24px;
+        font-size: 20px;
         margin: 0;
         display: flex;
         justify-content: center;
@@ -1562,6 +1569,7 @@ footer {
         margin: 20px auto;
         display: flex;
         justify-content: center;
+        text-align: center;
         color: white;
     }
 
@@ -1580,7 +1588,7 @@ footer {
         font-weight: bold;
         transition: .5s;
         font-size: 18px;
-        margin: 0 20px;
+        margin: 0;
         display: inline-block;
     }
 
@@ -1590,14 +1598,15 @@ footer {
     }
 
     .email_sus {
-        display: flex;
+        display: inline;
         justify-content: center;
+        text-align: center;
         margin: 50px auto;
     }
 
     .email_input {
-        width: 330px;
-        padding: 30px 30px;
+        width: 450px;
+        padding: 15px 30px;
         font-size: 16px;
         border-radius: 6px;
         border: none;
@@ -1648,9 +1657,9 @@ footer {
         justify-content: center;
         flex-direction: column;
         padding-left: 50px;
-        padding-right: 100px;
+        padding-right: 50px;
         width: 50%;
-        margin-left: 50px;
+        margin-left: 10px;
     }
 
     .cuadronegro_user p a {
@@ -1728,7 +1737,7 @@ footer {
     footer {
         background: #2d2d2d;
         color: #b8b8b8;
-        padding: 30px 0 10px;
+        padding: 30px 0 20px;
     }
 
     .pie {
@@ -1742,7 +1751,7 @@ footer {
     }
 
     .list_icon_div {
-        margin-right: 50px;
+        margin-right: 40px;
     }
 
     .list_icon a {
@@ -1751,7 +1760,7 @@ footer {
 
     .tex_footer {
         margin: 0;
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .list_icon a img {
@@ -1772,10 +1781,10 @@ footer {
     }
 }
 
-@media screen and (min-width:720px) {
+@media screen and (min-width:767px) {
 
     .container {
-        max-width: 720px;
+        max-width: 767px;
         padding: 0 15px;
         margin: 0 auto;
     }
@@ -2942,10 +2951,10 @@ footer {
     }
 }
 
-@media screen and (min-width:1080px) {
+@media screen and (min-width:1024px) {
 
     .container {
-        max-width: 1080px;
+        max-width: 1024px;
         padding: 0 15px;
         margin: 0 auto;
     }
@@ -2984,10 +2993,10 @@ footer {
     /*Primerra sección*/
 
     .tittle_cuadroarriba {
-        font-size: 48px;
+        font-size: 44px;
         font-weight: 800;
         margin: 0;
-        line-height: 72px;
+        line-height: 68px;
         letter-spacing: 3px;
     }
 
@@ -3112,7 +3121,7 @@ footer {
     }
 
     h1.tittle_cuadro2 {
-        font-size: 34px;
+        font-size: 30px;
         margin: 0;
         line-height: 45px;
         letter-spacing: 1px;
@@ -3155,12 +3164,13 @@ footer {
     }
 
     .rect_content img {
-        width: 500px;
-        height: 500px;
+        width: 480px;
+        height: 480px;
     }
 
     .ventanas {
         display: flex;
+        justify-content: space-between;
         flex-wrap: wrap;
         gap: 15px;
     }
@@ -3223,8 +3233,8 @@ footer {
     }
 
     .imagen_main img {
-        width: 340px;
-        height: 460px;
+        width: 300px;
+        height: 430px;
     }
 
     .barra_nav3 a {
@@ -3243,8 +3253,8 @@ footer {
     }
 
     .rect_content_2 img{
-        height: 200px;
-        width: 180px;
+        height: 180px;
+        width: 160px;
     }
 
     .pcaudroimg {
@@ -3404,7 +3414,7 @@ footer {
         padding-left: 100px;
         padding-right: 200px;
         width: 50%;
-        margin-left: 100px;
+        margin-left: 60px;
     }
 
     .cuadronegro_user p a {
@@ -3445,7 +3455,7 @@ footer {
     .forma {
         display: flex;
         justify-content: space-between;
-        gap: 50px;
+        gap: 40px;
     }
 
     .nombre, .correo{
@@ -3464,7 +3474,7 @@ footer {
         box-sizing: border-box;
         width: 100%;
         height: 250px;
-        margin: 40px 0;
+        margin: 30px 0;
         padding: 40px;
         border: none;
         background: #e5e5e5;
